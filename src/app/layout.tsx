@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Kaka from "./Component/Header/page";
+import Kaka from "./Component/header";
+
 
 const inter = Inter({ subsets: ["latin"] });
 

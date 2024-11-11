@@ -1,8 +1,9 @@
 import React from 'react'
+import Homeu from './Home/page'
+import Abouty from './About/page'
+import Contact from './Contact/page'
 
-import Homeu from './Component/Home/page'
-import Abouty from './Component/About/page'
-import Contact from './Component/Contact/page'
+
 
 const page = () => {
   return (

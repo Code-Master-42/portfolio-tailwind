@@ -8,9 +8,9 @@ import Link from 'next/link';
 const Homeu= () => {
   return (
 
-<div className='w-full h-[100%] bg-white items-center gap-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 mx-auto'>
-<Image src={"/kaka.jpg"} alt='iiioio' width={300} height={400} className='rounded-full  mt-4 mx-auto' />
-<div className='mt-8'>
+<div className='w-full h-screen bg-white items-center gap-10 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto'>
+<Image src={"/kaka.jpg"} alt='iiioio' width={400} height={400} className='rounded-lg mt-4 mx-auto ' />
+<div className='mt-8 mx-4'>
   <h1 className='text-3xl font-semibold mt-2 '>Hello its Me<br/><span className='font-bold text-3xl mt-2 md:text-4xl lg:text-5xl '>Rizwan Arain</span><br/>
   And I am a <span className='text-blue-600'>Fronted Developer</span></h1>
 <p className='mt-10 font-semibold text-2xl md:text-1xl lg:text-1xl '>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Quidem, minus atque nobis consequatur, laudantium velit sapiente omnis<br/> hic ab voluptas incidunt ipsum provident veniam debitis, quae sint soluta quis ducimus.</p>
